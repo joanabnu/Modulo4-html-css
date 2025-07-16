@@ -17,3 +17,7 @@ menu{
 article::after{
     content: "Esse artigo foi impresso";
 }
+
+article{
+    width: 100%;
+}

@@ -19,7 +19,12 @@ grandes telas acima 1200px*/
 
   }
   main{
+    width: 90vw;
     border: 2px solid black;
+  }
+  main::after{
+    content: 'Essa impressão foi feita atrabes do site ww.cursoemvvideo.com ';
+    text-decoration: overline;
   }
   main h1{
     text-shadow: none;

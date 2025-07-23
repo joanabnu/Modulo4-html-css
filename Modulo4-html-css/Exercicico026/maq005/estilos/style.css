@@ -2,6 +2,8 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 body,html{
     background-color: lightgray;
@@ -14,8 +16,20 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
+span#burguer{
+    background-color: rgb(66, 63, 63);
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+span#burguer:hover{
+    background-color: rgb(5, 77, 77);
+    color: white;
+  
+}
 menu {
- display: block;
+ display: none;
 }
 menu > ul{
     list-style-type: none;
